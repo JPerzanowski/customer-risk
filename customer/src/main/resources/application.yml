@@ -9,7 +9,7 @@ spring:
       ddl-auto: update
 app:
   job:
-    cron-customer-risk-calculation: 5 * * * * *
+    cron-customer-risk-calculation: 0 0 20 * * ?
   file:
     location: /Users/jakubperzanowski/Desktop/CustomDirectory
 email:
@@ -19,7 +19,3 @@ email:
   message:
     typeA5-type1: Uprzejmie informuję, że zmieniła się klasa ryzyka dla klienta
     type2: Proszę o przegląd ryzyka klienta
-
-
-  #    0 0 20 * * ?
-#  5 * * * * *

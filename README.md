@@ -2,6 +2,7 @@
 The customer-risk-notifier is the small notification service sending the Customer's risks data to Stakeholders
 
 ## Project Setup
+Please configure the path to the folder app.file.location:
 
 To run you need to set up a database connection:
 - spring.datasource.url

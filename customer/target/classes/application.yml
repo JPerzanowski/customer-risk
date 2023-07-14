@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/photo_app
+#    driver-class-name: org.postgresql.Driver
+    username: jakub
+    password: jakub
+  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+app:
+  job:
+    cron-customer-risk-calculation: 5 * * * * *
+  file:
+    location: /Users/jakubperzanowski/Desktop/CustomDirectory
+email:
+  address:
+    directors: dyrektorjednostki@fikcyjnafirma.com
+    coordinators: koordynatorkoordynatorow@fikcyjnafirma.com
+  message:
+    typeA5-type1: Uprzejmie informuję, że zmieniła się klasa ryzyka dla klienta
+    type2: Proszę o przegląd ryzyka klienta
+
+
+  #    0 0 20 * * ? every day at 20:00
+#  5 * * * * *

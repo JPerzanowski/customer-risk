@@ -1,0 +1,7 @@
+com/example/customer/controller/CustomerController.class
+com/example/customer/CustomerApplication.class
+com/example/customer/entity/CustomerRepository.class
+com/example/customer/entity/CustomerDetails.class
+com/example/customer/job/CustomerRiskCalculationJob.class
+com/example/customer/config/SchedulingConfig.class
+com/example/customer/entity/CustomerDetails$CustomerDetailsBuilder.class
